@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+    <div class="sliders1">
+      <input type="checkbox" name="selection" onchange="toogleFirstSelection()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="firstStat" oninput="setFirstStat()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="secondStat" oninput="setFirstStat()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="thirdStat" oninput="setFirstStat()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="fourthStat" oninput="setFirstStat()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="fifthStat" oninput="setFirstStat()">
+    </div>
+    <div class="canvasDiv">
+      <canvas id="RGcanvas" width="500px" height="500px"></canvas>
+    </div>
+    <div class="sliders2">
+      <input type="checkbox" name="selection" onchange="toogleSecondSelection()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="firstStat2" oninput="setSecondStat()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="secondStat2" oninput="setSecondStat()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="thirdStat2" oninput="setSecondStat()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="fourthStat2" oninput="setSecondStat()">
+      <input type="range" min="1" max="100" class="slider" id="myRange" name="fifthStat2" oninput="setSecondStat()">
+    </div>
+    <script type="text/javascript" src="js/RGMain.js"></script>
+    <script type="text/javascript" src="js/test.js"></script>
+  </body>
+</html>
